@@ -15,7 +15,7 @@ library(jsonlite)
 #First, you must get your ChatGPT API key from here: https://platform.openai.com/overview 
 
 #Set WD 
-setwd("/Users/steverathje/Desktop/GBT")
+setwd(your file path)
 
 #Then, put your API key in the quotes below: 
 my_API <- ""
@@ -43,7 +43,7 @@ hey_chatGPT <- function(answer_my_question) {
 }
 
 #Read in your dataset
-data <- read_csv("Data/SemEval2017ErrorsFixed.csv", col_names = FALSE)
+data <- read_csv("SemEval2017ErrorsFixed.csv", col_names = FALSE)
 View(data)
 
 #Recode variables
